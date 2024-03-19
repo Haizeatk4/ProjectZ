@@ -1,0 +1,5 @@
+/git status (kiểm tra thay đổi)
+Đưa lên github:
+	- /git add .
+	- /git commit -m "<lời nhắn>"
+	- /git push origin main

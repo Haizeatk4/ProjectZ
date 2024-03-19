@@ -1,0 +1,27 @@
+PULL(update thay đổi trên github về máy mình):
+	/git pull origin main
+
+MERGE(gộp code):
+* tạo nhánh mới
+	/git checkout -b <tên nhánh>		VD: git checkout -b phong
+* đẩy code lên
+	/git add .
+	/git commit -m "<lời nhắn>"
+	/git git push origin <tên nhánh>
+
+*chuyển qua nhánh khác
+	/git checkout <tên nhánh> 		VD: git checkout main
+
+CONFLICT(là xung đột khi hai người cùng sửa một file)
+* trên máy
+	(1)
+	/git add .
+	/git commit ...
+	/git push origin main
+	*gặp lỗi(nếu có)*
+	git pull
+	*giải quyết conflict trong file tương ứng*
+	*lặp lại từ (1)*
+
+có thể xem cụ thể cách giải quyết conflict:
+https://www.youtube.com/watch?v=bfVU7FZaIrY&list=PLncHg6Kn2JT6nWS9MRjSnt6Z-9Rj0pAlo&index=6

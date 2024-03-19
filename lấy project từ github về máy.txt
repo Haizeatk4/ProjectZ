@@ -1,0 +1,13 @@
+Lần đầu tải project thì cần clone project
+lấy đường link project
+/git clone <link>
+
+(cách 2)
+tạo project trên github
+clone project về máy
+thêm code
+/git status (kiểm tra thay đổi)
+Đưa lên github:
+	- /git add .
+	- /git commit -m "<lời nhắn>"
+	- /git push origin main

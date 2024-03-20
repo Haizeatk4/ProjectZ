@@ -1,3 +1,5 @@
+*tạo res mới trên github, copy link*
+
 git init
 git add .
 git commit -m "push local"

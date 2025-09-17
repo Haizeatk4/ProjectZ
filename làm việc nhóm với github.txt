@@ -25,3 +25,8 @@ CONFLICT(là xung đột khi hai người cùng sửa một file)
 
 có thể xem cụ thể cách giải quyết conflict:
 https://www.youtube.com/watch?v=bfVU7FZaIrY&list=PLncHg6Kn2JT6nWS9MRjSnt6Z-9Rj0pAlo&index=6
+
+* Pull nhánh từ github
+	/git fetch --all hoặc git branch -a
+	/git checkout (-b) <tên_nhánh>
+	/git pull origin <tên_nhánh>
